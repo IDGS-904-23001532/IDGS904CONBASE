@@ -1,0 +1,58 @@
+﻿@model IDGS904CONBASE.Models.Maestro
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Maestro</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.apaterno)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.apaterno)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.materno)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.materno)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.carrera)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.carrera)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.numero)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.numero)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

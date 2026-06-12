@@ -1,0 +1,7 @@
+/IDGS904
+.vs/
+bin/
+obj/
+node_modules/
+*.user
+*.suo
